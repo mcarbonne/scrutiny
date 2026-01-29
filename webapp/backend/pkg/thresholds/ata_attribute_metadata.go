@@ -696,12 +696,12 @@ var AtaMetadata = map[int]AtaAttributeMetadata{
 				Low: 0,
 				// This is set arbitrarily to avoid notifications caused by low
 				// historical numbers of command timeouts (e.g. caused by a bad cable)
-				High:              100,
+				High:              10000,
 				AnnualFailureRate: 0.024893587674442153,
 				ErrorInterval:     []float64{0.020857343769186413, 0.0294830350167543},
 			},
 			{
-				Low:               100,
+				Low:               10000,
 				High:              13000000000,
 				AnnualFailureRate: 0.10044174089362015,
 				ErrorInterval:     []float64{0.0812633664077498, 0.1227848196758574},
